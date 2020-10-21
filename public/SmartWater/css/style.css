@@ -1,0 +1,313 @@
+:root{
+	--hvBlue: #053F40;
+	--midBlue: #019D95;
+	--lwBlue: #83CACB;
+	--ntBlue: #D3DEE4;
+	--area: #E9D3CD;
+	--area2: #C8907E;
+	
+	--margin-top: 56px;
+	
+	--transition-time: 0.25s;
+}
+
+
+/*--------- MAIN -------------*/
+
+.content {
+	width: 100%;
+}
+
+.cont-center main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-md-9, .col-md-3 {
+	padding: 0;
+}
+
+.bx-xd {
+	-webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.container-fluid .main_1 {
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid .main_2 {
+	height: 100%;
+}
+
+.content .container-fluid .row .main_1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"person"
+	"factura";
+	background-color: #FFF;
+}
+
+.main_1 p, .person p, .info p {
+	margin: 0;
+}
+
+.person {
+	grid-area: person;
+	display: grid;
+	
+	padding: 15px;
+	
+	grid-template-areas:
+	"name"
+	"aguas-info"
+	"cliente-info";
+}
+
+.wlc-nm {
+	grid-area: name;
+}
+
+.person .aguas-info {
+	grid-area: aguas-info;
+	display: grid;
+}
+
+@media (min-width: 628px) {
+	.person {
+		grid-area: person;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 40px auto;
+		padding: 15px;
+		height: 100%;
+		
+		grid-template-areas:
+		"name name"
+		"aguas-info cliente-info";
+	}
+	
+	.person .aguas-info {
+		height: 100px;
+		align-self: center;
+	}
+	
+	
+	
+	.person .cliente-info {
+		justify-self: center;
+		align-self: center;
+	}
+}
+
+.info {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 30px;
+}
+
+.person .cliente-info {
+	grid-area: cliente-info;
+	display: grid;
+	height: 100px;
+	
+	justify-self: left;
+}
+
+
+.factura {
+	grid-area: factura;
+	padding: 15px;
+	height: 100%;
+}
+
+.factura .factura-mobile {
+	display: grid;
+}
+
+.factura .dt-factura {
+	display: none;
+}
+
+@media (min-width: 628px) {
+	.factura .dt-factura {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+		"dt-left dt-right";
+		
+		margin-bottom: 10px;
+		border: 1px solid #111;
+	}
+	
+	.factura .factura-mobile {
+		display: none;
+	}
+}
+
+.dt-left, .dt-right {
+	display: grid;
+}
+
+.factura .dt-factura .dt-left {
+	grid-area: dt-left;
+}
+
+.factura .dt-factura .dt-right {
+	grid-area: dt-right;
+}
+
+.factura .dt-btn {
+	display: inline-flex;
+	padding: 10px;
+	margin: 10px;
+}
+
+.factura .dt-btn .btn {
+	background-color: #FFF;
+	color: var(--hvBlue);
+	border: 1px solid #111;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.factura .dt-btn .btn:hover {
+	background-color: var(--hvBlue);;
+	color: #FFF;	
+}
+
+.factura .dt-btn .btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+/*------------- MAIN2  -------------*/
+
+.main_2 {
+	background-color: #FFF;
+	padding: 10px;
+}
+
+.main_2 .container-fluid p {
+	padding: 0;
+	margin: 0;
+}
+
+.main_2 .container-fluid .dp-grid {
+	display: grid;
+}
+
+/*-----  logo de metodos de pagamentos -------*/
+.dt-pagamento {
+	display: grid;
+	border: 1px solid #111;
+}
+
+.dt-pagamento .group-info {
+	display: grid;
+}
+.dt-pagamento .pg-metodos {
+	display: inline-flex;
+}
+
+.dt-pagamento .pg-metodos a div {
+	width: 35px;
+	height: 35px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.standart, .bci, .m-kesh, .m-pesa, .top-up {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.dt-pagamento .pg-metodos .standart {
+	background-image: url(../Images/Logo/SB.png);
+	background-size: 300%;
+}
+
+.dt-pagamento .pg-metodos .bci {
+	background-image: url(../Images/Logo/BCI.png);
+	background-size: 300%;
+}
+
+.dt-pagamento .pg-metodos .m-kesh {
+	background-image: url(../Images/Logo/k.png);
+}
+
+.dt-pagamento .pg-metodos .m-pesa {
+	background-image: url(../Images/Logo/mpesa.png);
+}
+
+.dt-pagamento .pg-metodos .top-up {
+	background-image: url(../Images/Logo/top_up.jpg);
+}
+
+
+
+/*--------- DIVIDAS ---------*/
+
+.dividas .dv-cont {
+	height: 200px;
+	border: 1px solid #111;
+	padding: 10px;
+}
+
+
+
+
+/********** TEXT STYLING  **********/
+.factura .info, .factura .info p {
+	color: var(--lwBlue);
+}
+
+.factura .tt-dv {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 30px;
+	white-space: nowrap;
+}
+
+.person .wlc-nm, .dp-grid .pg-lb, .dp-grid .pg-val, .dp-grid .pg-val p, .factura .tt-dv, .factura .tt-dv .ft-lb-11 {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: var(--hvBlue);
+	font-style: italic;
+	padding: 5px;
+}
+
+@media (max-width: 416px) {
+	.factura .tt-dv, .factura .tt-dv .ft-lb-11 {
+		font-size: 15px;	
+	}
+}
+
+.aguas-info, .info, .info p, .cliente-info div, .cliente-info div p, .cliente-info p {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--hvBlue);
+	padding: 6px;
+}
+
+.cliente-info div p {
+ padding: 0;
+}
+
+.info p, .group-info .info p {
+	padding-left: 15px;
+}
+
+.factura .info, .factura .info p {
+	color: var(--lwBlue);
+}

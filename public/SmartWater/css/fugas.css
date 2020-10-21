@@ -1,0 +1,96 @@
+:root{
+	--hvBlue: #053F40;
+	--midBlue: #019D95;
+	--lwBlue: #83CACB;
+	--ntBlue: #D3DEE4;
+	--area: #E9D3CD;
+	--area2: #C8907E;
+	
+	--margin-top: 56px;
+	
+	--transition-time: 0.25s;
+}
+
+.content {
+	width: 100%;
+}
+
+#map {
+	height: 300px;
+	width: 100%;
+}
+
+.fugas {
+	color: var(--hvBlue);
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 15px;
+}
+
+.fugas-header {
+	font-size: 25px;
+	font-weight: 800;
+	padding: 5px;
+}
+
+.fugas-content {
+	display: block;
+	padding: 5px;
+	border: 1px solid #111;
+}
+
+.fugas-group {
+	display: inline-flex;
+	padding: 10px;
+	margin-bottom: 5px;
+	align-items: center;
+}
+
+.fugas-group input {
+	border: 1px solid var(--hvBlue);
+	border-radius: 5px;
+	margin-left: 10px;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.fugas-comprovativo {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.fugas-comprovativo i {
+	font-size: 20px;
+	margin: 5px;
+	color: var(--hvBlue);
+}
+
+.fugas-map div p {
+	margin: 0;
+	padding: 10px;
+}
+
+.mapa-form form {
+	display: grid;
+}
+
+.mapa-form form .form-btn {
+	width: 150px;
+	height: 30px;
+	color: #fff;
+	background-color: var(--hvBlue);
+	border-radius: 10px;
+	border: none;
+	outline: none;	
+}
+
+
+
+
+
+
+
+
+
+

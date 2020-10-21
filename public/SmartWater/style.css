@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+}
+
+
+@media screen and (min-width: 796px){
+	body {
+		background-image: url(Images/background.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
+	
+	.container {
+		position: absolute;
+		max-width: 400px;
+		height: 500px;
+		margin: auto;
+		top: 50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+	}
+}
+
+.myLogin {
+	background: #fff;
+	height: 100%;
+	padding: 25px;
+}
+
+@media screen and (min-width: 796px) {
+	.myLogin {
+		border-radius: 25px;
+	}
+}
+
+.myForm .myHeader {	
+	display: grid;
+}
+
+.myForm .myHeader .headerLogo {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border-radius: 30px;
+	margin-bottom: 10px;
+	background-image: url(Images/Logo/smartwater.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	justify-self: center;
+	
+	
+	-webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.myForm .myHeader p {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #4D35FB;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+
+.myForm .form-group {
+	display: grid;
+	background-color: #fff;
+	border-radius: 25px;
+	
+	grid-template-columns: 20% 80%;
+	grid-template-areas:
+	"myInputIcon myInput";
+	
+	-webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.myLogin .myForm i {
+	grid-area: myInputIcon;
+	justify-self: center;
+	align-self: center;
+}
+
+.myLogin .myForm .myInput {
+	width: 230px;
+	border-radius: 25px;
+	padding: 10px;
+	padding-left: 20px;
+	border: none;
+	grid-area: myInput;
+	justify-self: center;
+	align-self: center;
+}
+
+.myLogin .myForm .myInput:focus {
+	outline: none;
+}
+
+.myLogin .myForm .myInput::placeholder, .myInput {
+	color: #83CACB;
+}
+
+.myLogin .myForm .butt_1 {
+	background-color: #053f40;
+	color: #fff;
+	width: 100%;
+	border: none;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px 0;
+	-webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.myLogin small {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	color: #83CACB;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.myLogin a:hover {
+	text-decoration: none;
+}
+
+.myLogin p {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px;
+	color: #83CACB;
+	padding: 10px;
+	margin: 0;
+}
+
+.myLogin .butt_2 {
+	background-color: #83CACB;
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	border: none;
+	border-radius: 25px;
+	padding: 10px;
+	
+	font-size: 10px;
+	
+	-webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+

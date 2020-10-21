@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56c8f7a6-18c3-402c-a9f3-1c0aaffe8193" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/vertical-default-light/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/kanban-board.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/tickets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/apps/todo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/c3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/chartist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/flot-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/google-charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/justGage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/charts/sparkline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/documentation/documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/forms/advanced_elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/forms/basic_elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/forms/code_editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/forms/dropify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/forms/text_editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/forms/wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/maps/google-maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/maps/mapael.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/maps/vector-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/samples/blank-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/samples/faq-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/samples/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/samples/news-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/tables/data-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/tables/js-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/tables/sortable-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/vertical-default-light/pages/widgets/widgets.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/vertical-default-light/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="348" column="10" selection-start-line="348" selection-start-column="10" selection-end-line="348" selection-end-column="10" />
+              <folding>
+                <element signature="n#li#8;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Events</find>
+      <find>widg</find>
+      <find>Map</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo/vertical-default-light/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Laravel + Mpesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel + Mpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel + Mpesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel + Mpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel + Mpesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel + Mpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vertical-default-light" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel + Mpesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel + Mpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vertical-default-light" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel + Mpesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel + Mpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vertical-default-light" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tables" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Laravel + Mpesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laravel + Mpesa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vertical-default-light" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ui-features" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56c8f7a6-18c3-402c-a9f3-1c0aaffe8193" name="Default" comment="" />
+      <created>1601945317089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601945317089</updated>
+      <workItem from="1601945319151" duration="1164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1164000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/off-canvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/vertical-default-light/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="348" column="10" selection-start-line="348" selection-start-column="10" selection-end-line="348" selection-end-column="10" />
+          <folding>
+            <element signature="n#li#8;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

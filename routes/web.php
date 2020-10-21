@@ -14,5 +14,47 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('paginaInicial');
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+
+    Route::prefix('admin')->group(function () {
+        Route::get('/', function () {
+            return view('pages.index');
+        })->name('admin');
+
+        Route::resources([
+            'incomes' => \App\Http\Controllers\IncomeController::class,
+
+        ]);
+
+      //  Route::resource('incomes', 'IncomeController');
+
+        Route::get('entrances', function () {
+            return view('pages.entrances');
+        });
+        Route::get('costs', function () {
+            return view('pages.costs');
+        });
+        Route::get('mpesa', function () {
+            return view('pages.mpesa');
+        });
+        Route::get('visa', function () {
+            return view('pages.visa');
+        });
+        Route::get('master-card', function () {
+            return view('pages.master-card');
+        });
+
+    });
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
+
+
+/* Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+*/

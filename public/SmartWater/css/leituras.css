@@ -1,0 +1,156 @@
+:root{
+	--hvBlue: #053F40;
+	--midBlue: #019D95;
+	--lwBlue: #83CACB;
+	--ntBlue: #D3DEE4;
+	--area: #E9D3CD;
+	--area2: #C8907E;
+	
+	--margin-top: 56px;
+	
+	--transition-time: 0.25s;
+}
+
+.info {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.conteudo-grid {
+	display: grid;
+	margin: 10px 0;
+}
+
+.conteudo-grid .conteudo-flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	max-width: 600px;
+	padding: 15px;
+	border: 1px solid #111;
+	border-radius: 10px;
+	
+}
+
+.conteudo-grid .conteudo-flex .info {
+	flex-basis: 250px;
+}
+
+.form form {
+	display: grid;
+	margin: 10px 0;
+}
+
+.form form .form-flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 600px;
+	padding: 15px;
+	border: 1px solid #111;
+	border-radius: 10px;
+}
+
+.form-flex .form-grp {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	height: 50px;
+	align-items: center;
+}
+
+.form-flex .form-grp input {
+	border: 1px solid var(--hvBlue);
+	border-radius: 15px;
+	width: 200px;
+	margin-left: 15px;
+}
+
+.form-flex .form-grp input::placeholder, .form-flex .form-grp input {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--hvBlue);
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.form-flex .form-grp input:focus {
+	outline: none;
+}
+
+.comprovativo {
+	display: grid;
+	padding: 15px;
+}
+
+.comprovativo .comprovativo-atach {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+.comprovativo input {
+	width: 150px;
+	height: 35px; 
+	border: none;
+	border-radius: 20px;
+	background-color: var(--midBlue);
+	color: #FFF;
+	margin: 5px;
+	justify-self: center;
+}
+
+.comprovativo input:hover {
+	background-color: var(--hvBlue);
+}
+
+.comprovativo .comprovativo-atach a i {
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+	color: var(--hvBlue);
+}
+
+.comprovativo .comprovativo-atach a:hover i {
+	background-color: var(--hvBlue);
+	color: #FFF;
+}
+
+/*----------- TEXT STYLING --------------*/
+
+.hding {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: var(--hvBlue);
+	padding: 5px;
+	margin: 0;
+}
+
+.conteudo-grid .conteudo-flex div, .conteudo-grid .conteudo-flex div p, .form-flex .form-grp, .form-flex .comprovativo .comprovativo-atach {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--hvBlue);
+	padding: 5px;
+	margin: 0;
+}
+
+.conteudo-grid .conteudo-flex div p {
+	padding: 10px;
+}
+
+.conteudo p {
+	display: inline-flex;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--hvBlue);
+	padding: 5px;
+	margin: 0;
+}
+
