@@ -1,0 +1,233 @@
+:root{
+	--hvBlue: #053F40;
+	--midBlue: #019D95;
+	--lwBlue: #83CACB;
+	--ntBlue: #D3DEE4;
+	--area: #E9D3CD;
+	--area2: #C8907E;
+	
+	--margin-top: 56px;
+	
+	--transition-time: 0.25s;
+}
+
+body {
+	background-color: #fff;
+	color: var(--hvBlue);
+}
+
+/*---------HEADER-------------*/
+
+.myHeader {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+	height: 56px;
+	width: 100vw;
+	padding: 5px;
+	background-color: var(--hvBlue);
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.myHeader .vertical {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas:
+	"button logo usericon";
+}
+
+.myHeader .vertical .sideBarBtn {
+	grid-area: button;
+	width: 50px;
+	height: 100%;
+	background-color: var(--hvBlue);
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	justify-self: start;
+	
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.myHeader .vertical .sideBarBtn:focus {
+	outline: none;
+}
+
+.myHeader .vertical .sideBarBtn:hover {
+	background-color: #FFF;
+	color: var(--lwBlue);
+}
+
+.myHeader .vertical .myLogo {
+	grid-area: logo;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.myHeader .vertical .myLogo div {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-image: url(../Images/Logo/smartwater.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.myHeader .vertical .myLogo p {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFF;
+	letter-spacing: 5px;
+	padding-left: 5px;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.myHeader .vertical .usrIconImg {
+	grid-area: usericon;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 50px;
+	color: var(--hvBlue);
+	font-size: 25px;
+	justify-self: end;
+	align-self: center;
+	background-color: var(--ntBlue);
+}
+
+@media (min-width: 992px) {
+	.myHeader .vertical {
+		grid-template-columns:1fr 1fr;
+		grid-template-areas:
+		"logo usericon";
+	}
+	
+	.myHeader .vertical .sideBarBtn {
+		display: none;
+	}
+	
+	.myHeader .vertical .myLogo {
+		justify-self: start;
+		justify-content: start;
+		align-items: center;
+		justify-self: start;
+	}
+}
+
+/*---------SIDEMENU-------------*/
+
+.wrapper {
+	margin-top: var(--margin-top);
+}
+
+.wrapper .sideMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1000;
+	margin: var(--margin-top) auto auto;
+	width: 200px;
+	transition: all ease var(--transition-time);
+	transform: translateX(-100%);
+}
+
+.wrapper .sideMenu, .wrapper .sideMenu .sidebar{
+	background-color: var(--hvBlue);
+}
+
+.active .sideMenu {
+	transform: translateX(0);
+}
+
+@media (max-width: 992px) {
+	.active #tgBtn {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.wrapper .sideMenu {
+		transform: translateX(0);
+	}
+	.content {
+		margin-left: 200px;
+	}
+	
+	.active .sideMenu {
+		width: 80px;
+	}
+	
+	.active .content {
+		margin-left: 80px;
+	}
+	
+	.active .sideMenu .nav-link {
+		text-align: center;
+	}
+	
+	.active .sideMenu .nav-link fas {
+		margin-right: 0;
+	}
+	
+	.active .sideMenu .nav-link .text {
+		display: none;
+	}
+}
+
+.nav-link {
+	display: block;
+	white-space: nowrap;
+}
+
+.nav-link .fas {
+	margin-right: 4px;
+	font-size: 30px;
+	vertical-align: middle;
+	height: 32px;
+	width: 32px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	background-color: var(--hvBlue);
+}
+
+.nav-link .text {
+	font-size: 14px;
+	color: #FFF;
+}
+
+.nav-link:hover, .nav-link:active {
+	background-color: #FFF;
+	color: var(--lwBlue);
+}
+
+.nav-link:hover span, .nav-link:active span {
+	background-color: #FFF;
+	color: var(--lwBlue);
+}
+
+.nav-link:hover i, .nav-link:active i {
+	background-color: #FFF;
+	color: var(--lwBlue);
+}

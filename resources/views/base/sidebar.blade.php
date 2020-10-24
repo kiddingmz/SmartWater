@@ -12,18 +12,8 @@
                         {{auth()->user()->name}}
                     </p>
                     <p class="sidebar-designation">
-                        Administrador III
+                        Administrador
                     </p>
-                </div>
-            </div>
-            <div class="nav-search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Type to search..." aria-label="search" aria-describedby="search">
-                    <div class="input-group-append">
-                  <span class="input-group-text" id="search">
-                    <i class="typcn typcn-zoom"></i>
-                  </span>
-                    </div>
                 </div>
             </div>
             <p class="sidebar-menu-title">Dash menu</p>
@@ -31,7 +21,7 @@
         <li class="nav-item">
             <a class="nav-link" href="/admin">
                 <i class="typcn typcn-device-desktop menu-icon"></i>
-                <span class="menu-title">Dashboard <span class="badge badge-primary ml-3">New</span></span>
+                <span class="menu-title">Dashboard </span>
             </a>
         </li>
         <li class="nav-item">

@@ -20,32 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f8ef7e-f4f4-4036-9a85-b7635dcc5ce3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Traits/PaymentsTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/toast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/incomes/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/incomes/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/incomes/table-row.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/base/show-feedbacks.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/paginaInicial.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SmartWater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SmartWater.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/smart/facturas_consumo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/smart/fugas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/smart/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/smart/leituras.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/smart/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/BCI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/BIM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/SB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/mpesa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/smartwater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/Logo/top_up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/smart/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/faturas-consumo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/leitura.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/nossas-lojas.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/reportar-fuga.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IncomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IncomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/PaymentsTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/PaymentsTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/SmartWater/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/SmartWater/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/base/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/base/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/base/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/base/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -212,16 +215,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SmartWater\public\assets\js" />
+      <recent name="C:\xampp\htdocs\SmartWater\public\assets\css\smart" />
+      <recent name="C:\xampp\htdocs\SmartWater\public\assets\images\smart" />
+      <recent name="C:\xampp\htdocs\SmartWater\public\assets\css" />
+      <recent name="C:\xampp\htdocs\SmartWater\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\SmartWater\public" />
       <recent name="C:\xampp\htdocs\SmartWater\database\seeders" />
       <recent name="C:\xampp\htdocs\SmartWater\public\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\SmartWater\resources\views" />
-      <recent name="C:\xampp\htdocs\SmartWater\resources\views\pages" />
-      <recent name="C:\xampp\htdocs\SmartWater\public\assets" />
-      <recent name="C:\xampp\htdocs\SmartWater\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -245,7 +249,11 @@
       <workItem from="1603129561551" duration="6285000" />
       <workItem from="1603199258303" duration="597000" />
       <workItem from="1603225333000" duration="4395000" />
-      <workItem from="1603284240141" duration="1138000" />
+      <workItem from="1603284240141" duration="11004000" />
+      <workItem from="1603306094760" duration="7620000" />
+      <workItem from="1603383313985" duration="7026000" />
+      <workItem from="1603480207854" duration="1639000" />
+      <workItem from="1603570282156" duration="1374000" />
     </task>
     <servers />
   </component>
@@ -277,13 +285,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603133103103" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602967302658">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603317072407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602967302658" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602778280581">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603317072407" />
+    <state x="1920" y="0" width="1559" height="1027" maximized="true" key="dock-window-1" timestamp="1603317252182">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="0" width="1559" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603317252182" />
+    <state x="1920" y="0" width="1559" height="1027" maximized="true" key="dock-window-2" timestamp="1603318297727">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="0" width="1559" height="1027" maximized="true" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603318297727" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603295061116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602778280581" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603295061116" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603317378839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603317378839" />
   </component>
 </project>

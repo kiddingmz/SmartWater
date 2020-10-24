@@ -18,7 +18,7 @@ class IncomeController extends Controller
     public function index()
     {
 
-       //$this->handlePayment();
+       $this->handlePayment();
 
         $incomes = Income::orderBy('created_at', 'desc')->get();
 
@@ -46,7 +46,7 @@ class IncomeController extends Controller
         //dd($request->all());
 
         if($this->canSaveData($request)){
-           // dd($request->all()); //debug
+            //dd($request->all()); //debug
 
             //Gravar os dados
 

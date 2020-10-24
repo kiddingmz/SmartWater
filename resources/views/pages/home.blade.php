@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="{{asset('assets/images/smart/Logo/smartwater.png')}}">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/bed30b58b0.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('assets/css/smart/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/smart/header.css')}}">
+    <title>Pagina Inicial</title>
+</head>
+<body>
+<nav class="myHeader">
+    <div class="vertical">
+        <button class="sideBarBtn sideMenuToggler">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="myLogo">
+            <div></div>
+            <p>SMART WATER</p>
+        </div>
+        <div class="usrIconImg rounded-circle">
+            <i class="fas fa-user"></i>
+            <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+                <a class="nav-link dropdown-toggle  pl-0 pr-0" href="#" data-toggle="dropdown" id="profileDropdown">
+                    <i class="typcn typcn-user-outline mr-0"></i>
+                    <span class="nav-profile-name">
+
+                    </span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                    <!-- Authentication -->
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+
+                        <a class="dropdown-item" href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                            <i class="typcn typcn-power text-primary"></i>
+                            Logout
+                        </a>
+                    </form>
+
+                </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="wrapper d-flex">
+    <div class="sideMenu">
+        <div class="sidebar">
+            <ul class="navbar-nav">
+                <li class="nav-item" id="tgBtn">
+                    <a href="#" class="nav-link sideMenuToggler">
+                        <i class="fas fa-bars"></i>
+                        <span class="text">Menu</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span class="text">Pagina Inicial</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/faturas-consumo" class="nav-link">
+                        <i class="fas fa-book"></i>
+                        <span class="text">Faturas e Consumo</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/leitura" class="nav-link">
+                        <i class="fas fa-book-open"></i>
+                        <span class="text">Leitura</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/fuga" class="nav-link">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span class="text">Reportar Fuga</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/nossas-lojas" class="nav-link">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="text">Localize nossas lojas</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content cont-center">
+        <main>
+            <div class="container-fluid">
+                <div class="row m-auto bx-xd">
+                    <div class="col-md-9">
+                        <div class="main_1">
+                            <div class="person">
+                                <p class="wlc-nm">Ola {{auth()->user()->name}}</p>
+                                <div class="aguas-info">
+                                    <p>Aguas da Regiao de Maputo</p>
+                                    <div class="info">
+                                        Nuit:
+                                        <p class="pr-lb-1"> xxxxxxxxxxxx</p>
+                                    </div>
+                                    <div class="info">
+                                        Email:
+                                        <p class="pr-lb-2"> xxxxxxxxxxxx</p>
+                                    </div>
+                                    <div class="info">
+                                        Telefone:
+                                        <p class="pr-lb-3"> xxxxxxxxxxxx</p>
+                                    </div>
+                                </div>
+                                <div class="cliente-info">
+                                    <div>
+                                        Exmo.(s) Sr.(s)
+                                        <p class="pr-lb-1"> {{auth()->user()->name}}</p>
+                                    </div>
+                                    <p>Magoanine B</p>
+                                    <div class="info">
+                                        Codigo do Cliente:
+                                        <p class="pr-lb-3"> 2321A</p>
+                                    </div>
+                                    <div class="info">
+                                        Nuit:
+                                        <p class="pr-lb-3"> 481145262</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="factura">
+                                <div class="factura-mobile">
+                                    <div class="info">
+                                        Leitura Anterior:
+                                        <p class="ft-lb-1"> xxxx m3</p>
+                                    </div>
+                                    <div class="info">
+                                        Leitura Actual:
+                                        <p class="ft-lb-2"> xxxx m3</p>
+                                    </div>
+                                    <div class="info">
+                                        Consumo:
+                                        <p class="ft-lb-3"> xxxx m3</p>
+                                    </div>
+                                    <div class="info">
+                                        Codigo do Cliente:
+                                        <p class="ft-lb-4"> xxxxxxx </p>
+                                    </div>
+                                    <div class="info">
+                                        Tipo de Contrato:
+                                        <p class="ft-lb-5"> Domestico</p>
+                                    </div>
+                                    <div class="info">
+                                        Moeda:
+                                        <p class="ft-lb-6"> MZN</p>
+                                    </div>
+                                    <div class="info">
+                                        Preco por m3:
+                                        <p class="ft-lb-7"> 34</p>
+                                    </div>
+                                    <div class="info">
+                                        Iva:
+                                        <p class="ft-lb-8"> 34</p>
+                                    </div>
+                                    <div class="info">
+                                        Sub Total de contas de agua:
+                                        <p class="ft-lb-9"> 1340</p>
+                                    </div>
+                                    <div class="info">
+                                        Total:
+                                        <p class="ft-lb-10"> 1474</p>
+                                    </div>
+                                    <div class="tt-dv">
+                                        Valor Total em Divida:
+                                        <p class="ft-lb-11"> 23450 MT</p>
+                                    </div>
+                                </div>
+                                <div class="dt-factura">
+                                    <div class="dt-left">
+                                        <div class="info">
+                                            Leitura Anterior:
+                                            <p class="ft-lb-1"> xxxx m3</p>
+                                        </div>
+                                        <div class="info">
+                                            Consumo:
+                                            <p class="ft-lb-3"> xxxx m3</p>
+                                        </div>
+                                        <div class="info">
+                                            Tipo de Contrato:
+                                            <p class="ft-lb-5"> Domestico</p>
+                                        </div>
+                                        <div class="info">
+                                            Preco por m3:
+                                            <p class="ft-lb-7"> 34</p>
+                                        </div>
+                                        <div class="info">
+                                            Sub Total de contas de agua:
+                                            <p class="ft-lb-9"> 1340</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="dt-right">
+                                        <div class="info">
+                                            Leitura Actual:
+                                            <p class="ft-lb-2"> xxxx m3</p>
+                                        </div>
+
+                                        <div class="info">
+                                            Codigo do Cliente:
+                                            <p class="ft-lb-4"> xxxxxxx </p>
+                                        </div>
+
+                                        <div class="info">
+                                            Moeda:
+                                            <p class="ft-lb-6"> MZN</p>
+                                        </div>
+
+                                        <div class="info">
+                                            Iva:
+                                            <p class="ft-lb-8"> 34</p>
+                                        </div>
+
+                                        <div class="info">
+                                            Total:
+                                            <p class="ft-lb-10"> 1474</p>
+                                        </div>
+                                        <div class="tt-dv">
+                                            Valor Total em Divida:
+                                            <p class="ft-lb-11"> 23450 MT</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="dt-btn">
+                                    <button class="btn">
+                                        Baixar Factura
+                                    </button>
+                                    <button class="btn">
+                                        Enviar via SMS
+                                    </button>
+                                    <button class="btn">
+                                        Enviar via Email
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="main_2">
+                            <div class="container-fluid">
+                                <div class="dp-grid">
+                                    <p class="pg-lb">Pagamentos</p>
+                                    <div class="dt-pagamento">
+                                        <div class="group-info">
+                                            <div class="info">
+                                                Mes:
+                                                <p class="pg-lb-1"> Outubro</p>
+                                            </div>
+                                            <div class="info">
+                                                Estado:
+                                                <p class="pg-lb-2"> Pendente</p>
+                                            </div>
+                                            <div class="info">
+                                                Referencia:
+                                                <p class="pg-lb-3"> xxxxxxxxxxxx</p>
+                                            </div>
+                                        </div>
+                                        <div class="pg-val text-center">
+                                            Valor a Pagar:
+                                            <p class="pg-lb-4"> 13127.00 Mt</p>
+                                        </div>
+                                        <div class="pg-dt info text-center">
+                                            Data de emissao:
+                                            <p class="pg-lb-5"> 22/10/2020</p>
+                                        </div>
+                                        <div class="pg-metodos">
+                                            <a href="#">
+                                                <div class="standart"></div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="bci"></div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="m-kesh"></div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="m-pesa"></div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="top-up"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dividas">
+                                <p>Sete ultimos documentos em divida</p>
+                                <div class="dv-cont">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main>
+    </div>
+</div>s
+</body>
+<script src="{{asset('assets/js/main.js')}}"></script>
+@include('base.include-js')
+</html>
+

@@ -10,19 +10,23 @@ trait PaymentsTrait
     public function handlePayment(){
 
             $client = new Client([
-                'apiKey' => env('MPESA_PI_KEY'),             // API Key
-                'publicKey' => env('MPESA_PUBLIC_KEY'),          // Public Key
-                'serviceProviderCode' => env('MPESA_SERVICE_PROVIDER_CODE'), // input_ServiceProviderCode
+                'apiKey' => env('MPESA_PI_KEY',""),             // API Key
+                'publicKey' => env('MPESA_PUBLIC_KEY',""),          // Public Key
+                'serviceProviderCode' => env('MPESA_SERVICE_PROVIDER_CODE',""), // input_ServiceProviderCode
             ]);
+
+
 
             $paymentData = [
                 'from' => '258840525605',       // input_CustomerMSISDN
-                'reference' => 'CURSO2T0',      // input_ThirdPartyReference
+               'reference' => 'CURSO2T0',      // input_ThirdPartyReference
                 'transaction' => 'T12344CC', // input_TransactionReference
                 'amount' => '500'             // input_Amount
             ];
 
             $result = $client->receive($paymentData);
+
+            dd($client, $result);
 
             if ($result->success) {
                // dd('Pagamento realizado com sucesso');

@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
+    // Rotas de administrador
     Route::prefix('admin')->group(function () {
         Route::get('/', function () {
             return view('pages.index');
@@ -31,6 +32,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
       //  Route::resource('incomes', 'IncomeController');
 
+            #administrador
         Route::get('entrances', function () {
             return view('pages.entrances');
         });
@@ -51,6 +53,24 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+
+    #Usuario comum
+    Route::get('home', function () {
+        return view('pages.home');
+    });
+    Route::get('faturas-consumo', function () {
+        return view('pages.faturas-consumo');
+    });
+    Route::get('leitura', function () {
+        return view('pages.leitura');
+    });
+    Route::get('fuga', function () {
+        return view('pages.reportar-fuga');
+    });
+    Route::get('nossas-lojas', function () {
+        return view('pages.nossas-lojas');
+    });
 });
 
 

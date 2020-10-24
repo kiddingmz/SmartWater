@@ -8,7 +8,7 @@
         </button>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-        <ul class="navbar-nav mr-lg-2">
+    <!--    <ul class="navbar-nav mr-lg-2">
             <li class="nav-item  d-none d-lg-flex">
                 <a class="nav-link" href="#">
                     Calendar
@@ -24,9 +24,9 @@
                     Employee
                 </a>
             </li>
-        </ul>
+        </ul> ---->
         <ul class="navbar-nav navbar-nav-right">
-            <li class="nav-item d-none d-lg-flex  mr-2">
+           <!-- <li class="nav-item d-none d-lg-flex  mr-2">
                 <a class="nav-link" href="#">
                     Help
                 </a>
@@ -75,14 +75,14 @@
                         </div>
                     </a>
                 </div>
-            </li>
+            </li> -->
             <li class="nav-item dropdown  d-flex">
                 <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
                     <i class="typcn typcn-bell mr-0"></i>
                     <span class="count bg-danger">2</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-                    <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+                    <p class="mb-0 font-weight-normal float-left dropdown-header">Notificações</p>
                     <a class="dropdown-item preview-item">
                         <div class="preview-thumbnail">
                             <div class="preview-icon bg-success">
@@ -90,13 +90,13 @@
                             </div>
                         </div>
                         <div class="preview-item-content">
-                            <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                            <h6 class="preview-subject font-weight-normal">Novo pagamento</h6>
                             <p class="font-weight-light small-text mb-0">
                                 Just now
                             </p>
                         </div>
                     </a>
-                    <a class="dropdown-item preview-item">
+                   <!-- <a class="dropdown-item preview-item">
                         <div class="preview-thumbnail">
                             <div class="preview-icon bg-warning">
                                 <i class="typcn typcn-cog mx-0"></i>
@@ -121,7 +121,7 @@
                                 2 days ago
                             </p>
                         </div>
-                    </a>
+                    </a> --->
                 </div>
             </li>
             <li class="nav-item nav-profile dropdown">
